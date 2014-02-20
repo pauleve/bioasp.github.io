@@ -10,7 +10,6 @@ BioASP is powered by the ASP tools of [Potassco, the Potsdam Answer Set Solving 
 
 Don't hesitate to ask questions, report bugs, etc. at:
 * [Issues](https://github.com/bioasp/bioasp.github.io/issues)
-* [bioasp@gmail.com](mailto:bioasp@gmail.com)
 * [Google+](https://plus.google.com/106623620514531759221) 
 
 ### The BioASP applications
