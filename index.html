@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="de"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>BioASP - ASP Solutions for Systems Biology</title>
+<!--[if IE]>
+  <script src="http://html5shiv.googlecode.com/
+     svn/trunk/html5.js" type="text/javascript">
+  </script>
+<![endif]-->
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+<!--     <link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
+
+    <!-- Le fav and touch icons -->
+ <!--   <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">-->
+
+<script src="js/bootstrap-modal.js"></script></head>
+    
+<!--  <header>
+
+</header>-->
+
+   <!-- Inhaltsbereich: Hier gehts los! -->
+
+
+<body><div class="container-fluid">
+
+    <div class="hero-unit">
+        <h1>BioASP </h1>
+        <p> Here you can find the latest BioASP applications.</p>
+
+BioASP is a collection of open-source programs, 
+ providing solutions for analyzing biological data and models with Answer Set Programming (ASP).
+ASP has proven to be an excellent tool for solving a variety of biological questions.
+The BioASP applications implement methods for analyzing metabolic and gene regulatory networks,
+ consistency checking, diagnosis, and repair of biological data and models. 
+In particular, it allows for computing predictions and generating hypotheses 
+ about required extensions of biological models.
+The BioASP collection is available as the <a href="http://pypi.python.org/pypi/bioasp"> bioasp</a> python package which 
+ encapsulates the ASP solutions,
+ provides functions for reading biological data formats pre-processing the input,
+ post-processing and presenting the results.
+The functionalities provided by the BioASP applications exploit technical know-how of
+ modeling (biological) problems in ASP and gearing ASP solvers’ parameters to them. 
+BioASP applications integrate our practical experience and offers them via easy-to-use Python functions,
+ thus enabling ASP non-experts to solve biological questions with ASP.
+
+Finally BioASP provides  <a href="http://pypi.python.org/pypi/pyasp"> pyasp</a> a python library 
+ that focuses on beeing a convenience wrapper for the ASP tools.
+PyASP encapsulates the grounder <a href="http://potassco.sourceforge.net/"> gringo</a> and 
+ the solvers <a href="http://potassco.sourceforge.net/"> clasp</a> and 
+ <a href="http://potassco.sourceforge.net/">claspD</a> into python objects. 
+It allows to create ASP Terms (Atoms) and to combine to problem instances,
+ join them with logic problem encodings and pass them to the solvers objects.
+Further PyASP provides the methods to access the solver results for further processing.
+  
+
+<p>BioASP and PyASP are powered by the ASP tools of <a href="http://potassco.sourceforge.net/"> Potassco</a> .</p>
+
+
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<div class="g-plus" data-href="https://plus.google.com/106623620514531759221" rel="author"></div>
+<a href="https://plus.google.com/106623620514531759221" rel="publisher">Google+</a>
+<br>
+Don't hesitate to ask questions, report bugs, etc. to <a href="mailto:bioasp@gmail.com">bioasp@gmail.com</a>.
+</div>
+
+
+    <div class="span12">  
+    <h2>The BioASP applications</h2>
+
+    <div class="span9">  
+        <h3>Identification of Functional Gene Units</h3>
+Integrating heterogeneous knowledge is necessary to elucidate the regulations in biological systems.
+In particular, such an integration is widely used to identify functional units,
+ that are sets of genes that can be triggered by the same external stimuli, as biological stresses, and that are linked to similar responses of the system. 
+Although several models and algorithms shown great success for detecting functional units on well-known biological species,
+they fail in identifying them when applied to more exotic species, such as extremophiles, that are by nature unrefined.
+Shortest Genome Segments (SGS) is a new model of functional units with a predictive power that is comparable to existing methods
+but overcomes this crucial limitation.
+In contrary to existing methods, SGS are stable in (i) computational time and (ii) ability to predict functional units when one deteriorates the biological knowledge, 
+which simulates cases that occur for exotic species.
+        <br>
+	<a href="https://pypi.python.org/pypi/shogen" class="btn btn-primary btn">Download...</a>
+	<a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::shogen" class="btn btn-primary btn">Try it online...</a>
+        <br><br>
+	<p><strong>Related publications:</strong></p>
+	<p> <a href="http://link.springer.com/chapter/10.1007%2F978-3-642-40564-8_21"> An ASP application in integrative biology: identification of functional gene units</a>  
+        <br>  Philippe Bordron, Damien Eveillard, Alejandro Maass, Anne Siegel, Sven Thiele. </p> 
+        <hr>
+    </div>    
+    
+
+    
+    <div class="span9">  
+        <h3>Learning Boolean logic models for Signaling Networks         </h3>
+A fundamental question in Systems Biology is the construction and training to data of mathematical models. 
+Logic formalisms have become very popular to model signaling networks because their simplicity allows us to model large systems encompassing hundreds of proteins. 
+An approach to train (Boolean) logic models to high-throughput phospho-proteomics data that guarantees global optimality of solutions as well as provides a complete set of solutions.
+
+        <br>
+	<a href="http://pypi.python.org/pypi/caspo" class="btn btn-primary btn">Download...</a>
+	<a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::caspo-learn" class="btn btn-primary btn">Try it online...</a>
+        <br><br>
+	<p><strong>Related publications:</strong></p>
+	<p> <a href="http://www.springerlink.com/content/222r1l05mg018824/"> Revisiting the Training of Logic Models of Protein Signaling Networks with ASP</a>  
+        <br> Santiago Videla, Carito Guziolowski, Federica Eduati, Sven Thiele, Niels Grabe, Julio Saez-Rodriguez, Anne Siegel.</p> 
+        <p> <a href="http://dx.doi.org/10.1093/bioinformatics/btt393"> Exhaustively characterizing feasible logic models of a signaling network using Answer Set Programming</a>
+        <br> Carito Guziolowski, Santiago Videla, Federica Eduati, Sven Thiele, Thomas Cokelaer, Anne Siegel, Julio Saez-Rodriguez.</p>
+        <hr>
+    </div>
+
+    <div class="span9">  
+	<h3>Sign Consistency on Influence Graphs - Diagnosis, Repair, Prediction        </h3>
+	Building upon a notion of consistency between biochemical/genetic reactions and high-throughput profiles of cell activity. 
+	We present an approach to check the consistency of large-scale data sets, provide explanations for inconsistencies by determining minimal representations of
+	conflicts. 
+	In practice, this can be used to identify unreliable data or to indicate missing reactions.
+	Further, we address the problem of repairing networks and corresponding yet often discrepant measurements in order to re-establish their mutual consistency and predict unobserved variations even under inconsistency.
+
+        <br>
+	<a href="http://pypi.python.org/pypi/ingranalyze" class="btn btn-primary btn">Download...</a>
+	<a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::ingranalyze" class="btn btn-primary btn">Try it online...</a>
+        <br><br>
+	<p><strong>Related publications:</strong></p>
+	<p> <a href="http://www.cs.uni-potsdam.de/%7Esthiele/bioasp/downloads/doc/gescthve10a.pdf"> Detecting Inconsistencies in Large Biological Networks with Answer Set Programming</a><br>
+	Martin Gebser, Torsten Schaub, Sven Thiele and Philippe Veber. </p>
+	<p> <a href="http://www.cs.uni-potsdam.de/%7Esthiele/bioasp/downloads/doc/geguivscsithve10a.pdf"> Repair and Prediction (under Inconsistency) in Large Biological Networks with Answer Set Programming </a> <br>
+	Martin Gebser, Carito Guziolowski, Mihail Ivanchev, Torsten Schaub, Anne Siegel, Sven Thiele and Philippe Veber.</p>
+       <hr>
+    </div><!--span-->
+
+    <div class="span9">  
+        <h3>Metabolic Network Completion         </h3>
+	A qualitative approach to elaborating the bio-synthetic capacities of metabolic networks.
+	Large-scale metabolic networks as well as measured data sets suffer from substantial incompleteness. 
+	This approach builds upon a formal method for analyzing large-scale metabolic networks mapping its principles into Answer Set Programming.
+	The approach can then be used to check whether a drafted network provides the synthesis routes to comply with the required functionality. 
+	If this fails, the draft network can be completed by importing reactions from metabolic reference network stemming from other organisms until the obtained network provides the measured functionality.
+
+        <br>
+	<a href="http://pypi.python.org/pypi/meneco" class="btn btn-primary btn">Download...</a>
+	<a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::meneco" class="btn btn-primary btn">Try it online...</a>
+        <br><br>
+	<p><strong>Related publications:</strong></p>
+	<p> <a href="http://www.cs.uni-potsdam.de/%7Esthiele/bioasp/downloads/doc/schthi09a.pdf"> Metabolic Network Expansion with Answer Set Programming</a> <br> 
+	Torsten Schaub and Sven Thiele. </p>
+	<p> <a href="http://www.cs.uni-potsdam.de/wv/pdfformat/coevgeprscsith13a.pdf"> Extending the Metabolic Network of Ectocarpus Siliculosus using Answer Set Programming</a> 
+	<br> Guillaume Collet, Damien Eveillard, Martin Gebser, S. Prigent, Torsten Schaub, Anne Siegel and Sven Thiele.</p>
+        <hr>
+    </div>
+
+     <div class="span9">  
+        <h3>Minimal Intervention Strategies         </h3>
+	Proposing relevant perturbations to biological signaling networks is central to many problems in biology and medicine because it allows for enabling or disabling certain biological outcomes.
+	In contrast to quantitative methods that permit fine-grained (kinetic) analysis,
+	qualitative approaches allow for addressing large-scale networks. 
+	This is accomplished by more abstract representations such as logical networks. 
+	We elaborate upon such a qualitative approach aiming at the computation of minimal interventions in logical signaling networks relying on Kleene’s three-valued logic and fixpoint semantics. 
+	We address this problem within answer set programming and show that it greatly outperforms previous work using dedicated algorithms.
+	
+        <br>
+<!-- 	<a href="http://pypi.python.org/pypi/meneco" class="btn btn-primary btn">Download...</a> -->
+	<a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::caspo-control" class="btn btn-primary btn">Try it online...</a>
+        <br><br>
+	<p><strong>Related publications:</strong></p>
+	<p> <a href="http://dx.doi.org/10.1017/S1471068413000422"> Minimal Intervention Strategies in Logical Signaling Networks with Answer Set Programming</a> <br> 
+	Roland Kaminski, Torsten Schaub, Anne Siegel and Santiago Videla S. </p>
+	<hr>
+    </div>
+
+    </div>
+
+
+<!--  Ende inhalt -->
+
+<!--  Google Tracking -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36749326-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!--  Ende Google Tracking -->
+
+
+
+  <footer>
+  </footer>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+<!--     <script src="js/bootstrap-transition.js"></script> -->
+<!--     <script src="docs/assets/js/bootstrap-alert.js"></script> -->
+    <script src="js/bootstrap-modal.js"></script>
+<!--     <script src="docs/assets/js/bootstrap-dropdown.js"></script> -->
+<!--     <script src="docs/assets/js/bootstrap-scrollspy.js"></script> -->
+<!--     <script src="docs/assets/js/bootstrap-tab.js"></script> -->
+<!--     <script src="docs/assets/js/bootstrap-tooltip.js"></script> -->
+<!--     <script src="docs/assets/js/bootstrap-popover.js"></script> -->
+<!--     <script src="docs/assets/js/bootstrap-button.js"></script> -->
+<!--     <script src="docs/assets/js/bootstrap-collapse.js"></script> -->
+<!--     <script src="docs/assets/js/bootstrap-typeahead.js"></script> -->
+
+
+
+</a></body></html>
