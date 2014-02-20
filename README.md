@@ -18,3 +18,19 @@ Don't hesitate to ask questions, report bugs, etc. at:
 * [Reasoning on the response of logical signaling networks: caspo](caspo)
 * [Sign consistency on influence graphs: ingranalyze](ingranalyze)
 * [Metabolic network completion: meneco](meneco)
+
+#### Installation
+
+You can install all BioASP application at once simply by running:
+
+```
+$ pip install bioasp
+```
+
+If you do not have **pip** installed on your system, you only need to download [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py). Then run the following:
+
+```
+$ python get-pip.py
+```
+
+Note that in both cases you may need to administrator access.
