@@ -8,12 +8,10 @@ The BioASP collection is available as a [python package](http://pypi.python.org/
 
 BioASP is powered by the ASP tools of [Potassco, the Potsdam Answer Set Solving Collection](http://potassco.sourceforge.net/).
 
-
-<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
-<div class="g-plus" data-href="https://plus.google.com/106623620514531759221" rel="author"></div>
-[Google+](https://plus.google.com/106623620514531759221)
-
-Don't hesitate to ask questions, report bugs, etc. to [bioasp@gmail.com](mailto:bioasp@gmail.com)
+Don't hesitate to ask questions, report bugs, etc. at:
+* [Issues](https://github.com/bioasp/bioasp.github.io/issues)
+* [bioasp@gmail.com](mailto:bioasp@gmail.com)
+* [Google+](https://plus.google.com/106623620514531759221) 
 
 ### The BioASP applications
 
