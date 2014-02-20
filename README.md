@@ -14,10 +14,10 @@ Don't hesitate to ask questions, report bugs, etc. at:
 
 ### The BioASP applications
 
-* [Identification of functional gene units: shogen](shogen)
-* [Reasoning on the response of logical signaling networks: caspo](caspo)
-* [Sign consistency on influence graphs: ingranalyze](ingranalyze)
-* [Metabolic network completion: meneco](meneco)
+* [Identification of functional gene units: **shogen**](shogen)
+* [Reasoning on the response of logical signaling networks: **caspo**](caspo)
+* [Sign consistency on influence graphs: **ingranalyze**](ingranalyze)
+* [Metabolic network completion: **meneco**](meneco)
 
 #### Installation
 
