@@ -10,8 +10,11 @@ BioASP is powered by the ASP tools of [Potassco, the Potsdam Answer Set Solving 
 
 Don't hesitate to ask questions, report bugs, etc. at:
 * [Issues](https://github.com/bioasp/bioasp.github.io/issues)
-* [Google+](https://plus.google.com/106623620514531759221) 
+* [Google+](https://plus.google.com/106623620514531759221)
 
 ### The BioASP applications
 
-* [caspo](caspo)
+* [Identification of functional gene units](shogen)
+* [Reasoning on the response of logical signaling networks](caspo)
+* [Sign consistency on influence graphs](ingranalyze)
+* [Metabolic network completion](meneco)
