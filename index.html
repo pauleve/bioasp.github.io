@@ -9,17 +9,15 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
-        padding-top: 10px;
+        padding-top: 40px;
         padding-bottom: 40px;
         padding-left: 40px;
-        padding-right: 100px;
+        padding-right: 40px;
       }
     </style>
 
 
 </head>
-    
-    
     
 <!--  <header>
 
@@ -27,12 +25,48 @@
 
 <!-- Inhaltsbereich: Hier gehts los! -->
 
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         <a class="navbar-brand" href="index.html">BioASP</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+<!--             <li class="active"><a href="#">BioASP</a></li> -->
+            <li><a href="applications.html">Applications</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="about_ASP.html">About ASP</a></li>
+            <li><a href="about_us.html">About us</a></li>
+            
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
 
 <body><div class="container">
 
-    <div class="jumbotron">
+    <div class="myjumbotron">
         <h1>BioASP </h1>
         <p> Answer Set Programming for Systems Biology.</p>
+
+    BioASP is a meta-package to create an powerful environment of Answer Set Programming for Systems Biology. 
+    The BioASP applications implement methods for analyzing metabolic, 
+    signaling and gene regulatory networks, 
+    consistency checking,
+    diagnosis,
+    and repair of biological data and models. 
+    They allow for computing predictions and
+    generating hypotheses about required extensions of biological models,
+    as well as designing new experiments and
+    finding intervention strategies to control the biological system at hand.
+    
+
 
 BioASP is a collection of open-source programs, 
  providing solutions for analyzing biological data and models with Answer Set Programming (ASP).
@@ -49,12 +83,12 @@ They allow for computing predictions and generating hypotheses about required ex
 <!--  encapsulates the ASP solutions, -->
 <!--  provides functions for reading biological data formats pre-processing the input, -->
 <!--  post-processing and presenting the results. -->
-The functionalities provided by the BioASP applications exploit technical know-how of
+<!--The functionalities provided by the BioASP applications exploit technical know-how of
  modeling (biological) problems in ASP and gearing ASP solvers’ parameters to them. 
 BioASP applications integrate our practical experience and offers them via easy-to-use Python functions,
- thus enabling ASP non-experts to solve biological questions with ASP.
+ thus enabling ASP non-experts to solve biological questions with ASP.-->
  
-The whole BioASP collection can be installed with one <a href="http://bioasp.github.io/bioasp"> python package</a>.
+<!--The whole BioASP collection can be installed with one <a href="http://bioasp.github.io/bioasp"> python package</a>.-->
 
 <!--The BioASP collection is available as a [python package](http://pypi.python.org/pypi/bioasp) which encapsulates the ASP solutions,
  provides functions for reading biological data formats pre-processing the input,
@@ -64,8 +98,8 @@ The whole BioASP collection can be installed with one <a href="http://bioasp.git
 BioASP applications integrate our practical experience and offers them via easy-to-use Python functions,
  thus enabling ASP non-experts to solve biological questions with ASP.-->
 
-<p>BioASP is powered by <a href="http://pypi.python.org/pypi/pyasp" target="_blank">  PyASP</a> and 
-the ASP tools of <a href="http://potassco.sourceforge.net/" target="_blank"> Potassco</a>.</p>
+<!-- <p>BioASP is powered by <a href="http://pypi.python.org/pypi/pyasp" target="_blank">  PyASP</a> and  -->
+<!-- the ASP tools of <a href="http://potassco.sourceforge.net/" target="_blank"> Potassco</a>.</p> -->
 
 <!-- Place this tag where you want the widget to render. -->
 <div class="g-page" data-width="273" data-href="//plus.google.com/106623620514531759221" data-theme="dark" data-layout="landscape" data-rel="publisher"></div>
@@ -78,17 +112,18 @@ the ASP tools of <a href="http://potassco.sourceforge.net/" target="_blank"> Pot
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
 </script>
-<br>
+<!--<br>
 Don't hesitate to ask questions or report bugs at our <a href="https://github.com/bioasp/bioasp.github.io/issues" target="_blank">issue tracker</a> 
-and visit us on <a href="http://github.com/bioasp" target="_blank">github</a>.
+and visit us on <a href="http://github.com/bioasp" target="_blank">github</a>.-->
+
 </div>
 
 
 
-    <div class="span12">  
-    <h2> Here you can find the latest BioASP applications.</h2>
+<!--     <div class="span12">   -->
+<!--     <h2> Here you can find the latest BioASP applications.</h2> -->
 
-    <div class="span9">  
+ <!--   <div class="span9">  
         <h3>Identification of Functional Gene Units</h3>
 Integrating heterogeneous knowledge is necessary to elucidate the regulations in biological systems.
 In particular, such an integration is widely used to identify functional units,
@@ -108,11 +143,11 @@ which simulates cases that occur for exotic species.
 	<p> <a href="http://dx.doi.org/10.1007/978-3-642-40564-8_21" target="_blank"> An ASP application in integrative biology: identification of functional gene units</a>  
         <br>  Philippe Bordron, Damien Eveillard, Alejandro Maass, Anne Siegel, Sven Thiele. </p> 
         <hr>
-    </div>    
+    </div>    -->
     
 
     
-    <div class="span9">  
+ <!--   <div class="span9">  
         <h3>Learning Boolean logic models for Signaling Networks         </h3>
 A fundamental question in Systems Biology is the construction and training to data of mathematical models. 
 Logic formalisms have become very popular to model signaling networks because their simplicity allows us to model large systems encompassing hundreds of proteins. 
@@ -130,9 +165,9 @@ An approach to train (Boolean) logic models to high-throughput phospho-proteomic
         <p> <a href="http://dx.doi.org/10.1093/bioinformatics/btt393" target="_blank"> Exhaustively characterizing feasible logic models of a signaling network using Answer Set Programming</a>
         <br> Carito Guziolowski, Santiago Videla, Federica Eduati, Sven Thiele, Thomas Cokelaer, Anne Siegel, Julio Saez-Rodriguez.</p>
         <hr>
-    </div>
+    </div>-->
 
-    <div class="span9">  
+<!--    <div class="span9">  
 	<h3>Sign Consistency on Influence Graphs - Diagnosis, Repair, Prediction        </h3>
 	Building upon a notion of consistency between biochemical/genetic reactions and high-throughput profiles of cell activity. 
 	We present an approach to check the consistency of large-scale data sets, provide explanations for inconsistencies by determining minimal representations of
@@ -152,9 +187,9 @@ An approach to train (Boolean) logic models to high-throughput phospho-proteomic
 	<p> <a href="http://aaai.org/ocs/index.php/KR/KR2010/paper/view/1334/1660" target="_blank"> Repair and Prediction (under Inconsistency) in Large Biological Networks with Answer Set Programming </a> <br>
 	Martin Gebser, Carito Guziolowski, Mihail Ivanchev, Torsten Schaub, Anne Siegel, Sven Thiele and Philippe Veber.</p>
        <hr>
-    </div><!--span-->
+    </div>-->
 
-    <div class="span9">  
+ <!--   <div class="span9">  
         <h3>Metabolic Network Completion         </h3>
 	A qualitative approach to elaborating the bio-synthetic capacities of metabolic networks.
 	Large-scale metabolic networks as well as measured data sets suffer from substantial incompleteness. 
@@ -173,9 +208,9 @@ An approach to train (Boolean) logic models to high-throughput phospho-proteomic
 	<p> <a href="http://dx.doi.org/10.1007/978-3-642-40564-8_25" target="_blank"> Extending the Metabolic Network of Ectocarpus Siliculosus using Answer Set Programming</a> 
 	<br> Guillaume Collet, Damien Eveillard, Martin Gebser, S. Prigent, Torsten Schaub, Anne Siegel and Sven Thiele.</p>
         <hr>
-    </div>
+    </div>-->
 
-     <div class="span9">  
+<!--     <div class="span9">  
         <h3>Minimal Intervention Strategies         </h3>
 	Proposing relevant perturbations to biological signaling networks is central to many problems in biology and medicine because it allows for enabling or disabling certain biological outcomes.
 	In contrast to quantitative methods that permit fine-grained (kinetic) analysis,
@@ -186,15 +221,34 @@ An approach to train (Boolean) logic models to high-throughput phospho-proteomic
 	
         <br>
 	<a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::caspo-control" class="btn btn-primary btn" target="_blank">WebService</a>
-<!-- 	<a href="http://pypi.python.org/pypi/meneco" class="btn btn-primary btn">Python Package</a> -->
 	<br><br>
 	<p><strong>Related publications:</strong></p>
 	<p> <a href="http://dx.doi.org/10.1017/S1471068413000422" target="_blank"> Minimal Intervention Strategies in Logical Signaling Networks with Answer Set Programming</a> <br> 
 	Roland Kaminski, Torsten Schaub, Anne Siegel and Santiago Videla S. </p>
 	<hr>
-    </div>
+    </div>-->
+<h1>
+<a name="installation" class="anchor" href="#installation"><span class="octicon octicon-link"></span></a>Installation</h1>
 
-    </div>
+<p>You can install all BioASP application at once from <a href="http://pypi.python.org/pypi/bioasp">pypi</a> by running:</p>
+
+<pre><code>$ pip install bioasp
+</code></pre>
+
+<p>For details on how to use each application follow the corresponding links above. If you do not have <strong>pip</strong> installed on your system, you only need to download <a href="https://raw.github.com/pypa/pip/master/contrib/get-pip.py">get-pip.py</a>. Then run the following:</p>
+
+<pre><code>$ python get-pip.py
+</code></pre>
+
+<p>Alternatively, if you prefer not to install <strong>pip</strong>, you can download the sources of BioASP and after unpacking run:</p>
+
+<pre><code>$ python setup.py install
+</code></pre>
+
+<p>Note that you may need either administrator access or a <a href="http://www.virtualenv.org">virtual environment</a>.</p>
+
+     </div> 
+
 
 
 <!--  Ende inhalt -->
