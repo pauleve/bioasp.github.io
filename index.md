@@ -2,104 +2,86 @@
 layout: index
 ---
 
-## Sign Consistency on Influence Graphs - Diagnosis, Repair, Prediction
+[Overview](#overview) | [Applications](#applications) | [Installation](#installation) | [Answer Set Programming](#answer-set-programming) | [Who we are](#who-we-are)
 
-For many biological systems knowledge bases are available that describe the interaction of its components usually in terms of causal networks and influence graphs. In particular signed influence graphs where edges indicate either positive or negative effect of one node upon another. Building upon a notion of consistency between biochemical/genetic regulations and high-throughput profiles of cell activity. We present an approach to check the consistency of large-scale data sets, provide explanations for inconsistencies by determining minimal representations of conflicts. In practice, this can be used to identify unreliable data or to indicate missing reactions. Further, we address the problem of repairing networks and corresponding yet often discrepant measurements in order to re-establish their mutual consistency and predict unobserved variations even under inconsistency. 
-[![DOI](https://zenodo.org/badge/5393/bioasp/iggy.png)](http://dx.doi.org/10.5281/zenodo.11098)
+# Overview
+BioASP is a meta-package to create an powerful environment of Answer Set Programming for Systems Biology. The BioASP applications implement methods for analyzing metabolic, signaling and gene regulatory networks, consistency checking, diagnosis, and repair of biological data and models. They allow for computing predictions and generating hypotheses about required extensions of biological models, as well as designing new experiments and finding intervention strategies to control the biological system at hand.
+<a href="https://plus.google.com/106623620514531759221" rel="publisher">Google+</a>
 
-### Installation
+# Applications
+The BioASP software collection includes the following applications. For more details on each application, please visit the corresponding <em>Application Page</em>. BioASP applications are freely available as python packages under General Public License (GPL) and they can be easily installed on your system. However you may want to try their <em>Web Service</em> before doing so (example input data is provided in-place).
 
-You can install iggy by running:
+***
 
-	$ pip install --user iggy
+### Metabolic network completion: **_meneco_**
+This application can be used to check if a draft metabolic network provides the synthesis routes to comply with certain functionality. If this fails, **_meneco_** can automatically complete the network using reactions from a reference network stemming from other organisms until the observed functionality is provided.
 
-On Linux the executable scripts can then be found in ``~/.local/bin``
+[Application Page](http://bioasp.github.io/meneco) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::meneco" target="_blank">Web Service</a> | [Citation](http://dx.doi.org/10.1007/978-3-642-40564-8_25)
 
-and on MacOS the scripts are under ``/Users/YOURUSERNAME/Library/Python/2.7/bin``.
+***
 
+### Reasoning on the response of logical signaling networks: **_caspo_**
+The aim of this application is to implement a pipeline for automated reasoning on logical signaling networks. Features provided by **_caspo_** include, learning of logical networks from experiments, design new experiments in order to reduce the uncertainty, and finding intervention strategies to control the biological system.
 
-### Usage
+[Application Page](http://bioasp.github.io/caspo) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::caspo-learn" target="_blank">Web Service</a> | [Citation](http://dx.doi.org/10.1093/bioinformatics/btt393)
 
-Typical usage is:
+***
 
-	$ iggy.py network.sif observation.obs --show_colorings 10 --show_predictions
+### Sign consistency on influence graphs: **_ingranalyze_**
+This application confronts biological networks given as Interaction Graphs with
+experimental data given as signs that represent the concentration changes between two measurements.
+It allows to decover inconsistencies in data or network, proposes minimal repairs and
+ predicts the behavior of unmeasured species.
 
-For more options you can ask for help as follows:
+[Application Page](http://bioasp.github.io/ingranalyze) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::ingranalyze" target="_blank">Web Service</a> | [Citation](http://dx.doi.org/10.1007/978-3-540-89982-2_19)
 
-	$ iggy.py -h 		
-	usage: iggy.py [-h] [--no_zero_constraints]
-               [--propagate_unambigious_influences] [--no_founded_constraint]
-               [--autoinputs] [--scenfit] [--show_colorings SHOW_COLORINGS]
-               [--show_predictions]
-               networkfile observationfile
+***
 
-	positional arguments:
-	  networkfile           influence graph in SIF format
-	  observationfile       observations in bioquali format
+### Identification of functional gene units: **_shogen_**
+This application combines gene sequence information and metabolic reaction network into one model.
+Together with data about metabolites involved in a chemical pathway,
+ the Shortest Gene Segments (SGS) are proposed which activate the metabolic reactions of such a pathway.
 
-	optional arguments:
-	  -h, --help            show this help message and exit
-	  --no_zero_constraints
-				turn constraints on zero variations OFF, default is ON
-	  --propagate_unambigious_influences
-				turn constraints ON that if all predecessor of a node
-				have the same influence this must have an effect,
-				default is ON
-	  --no_founded_constraint
-				turn constraints OFF that every variation must be
-				explained by an input, default is ON
-	  --autoinputs          compute possible inputs of the network (nodes with
-				indegree 0)
-	  --scenfit             compute scenfit of the data, default is mcos
-	  --show_colorings SHOW_COLORINGS
-				number of colorings to print, default is OFF, 0=all
-	  --show_predictions    show predictions
+[Application Page](http://bioasp.github.io/shogen) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::shogen" target="_blank">Web Service</a> | [Citation](http://dx.doi.org/10.1007/978-3-642-40564-8_21)
 
+***
 
+### Compute minimal metabolic precursors: **_precursor_**
+Given a metabolic reaction network and a set of target metabolites, this application computes the subset minimal sets of precursor metabolites needed to produce the targets.
 
-The second script contained is opt_graph.py
-Typical usage is:
+[Application Page](http://bioasp.github.io/precursor) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::precursor" target="_blank">Web Service</a>
 
-	$ opt_graph.py network.sif observations_dir/ --show_repairs 10
+***
 
-For more options you can ask for help as follows:
+# Installation
+You can install all BioASP application at once from [pypi](http://pypi.python.org/pypi/bioasp) by running:
+```
+$ pip install bioasp
+```
+For details on how to use each application follow the corresponding links above. If you do not have **pip** installed on your system, you only need to download [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py). Then run the following:
+```
+$ python get-pip.py
+```
+Alternatively, if you prefer not to install **pip**, you can download the sources of BioASP and after unpacking run:
+```
+$ python setup.py install
+```
+Note that you may need either administrator access or a [virtual environment](http://www.virtualenv.org).
 
-	$ opt_graph.py -h 	
-	usage: opt_graph.py [-h] [--no_zero_constraints]
-		    [--propagate_unambigious_influences]
-		    [--no_founded_constraint] [--autoinputs]
-		    [--show_repairs SHOW_REPAIRS] [--opt_graph]
-		    networkfile observationfiles
+# Answer Set Programming
+BioASP applications strongly rely on Answer Set Programming (ASP) for knowledge representation and reasoning. ASP is a declarative problem solving paradigm from the field of Logic Programming combining several computer science areas such as Knowledge Representation and Reasoning, Artificial Intelligence, Constraint Satisfaction and Combinatorial Optimization.
 
-	positional arguments:
-	  networkfile           influence graph in SIF format
-	  observationfiles      directory of observations in bioquali format
+For more details on ASP and state-of-the-art available tools, you may want to check the website of [Potassco, the Potsdam Answer Set Solving Collection](http://potassco.sourceforge.net).
 
-	optional arguments:
-	  -h, --help            show this help message and exit
-	  --no_zero_constraints
-				turn constraints on zero variations OFF, default is ON
-	  --propagate_unambigious_influences
-				turn constraints ON that if all predecessor of a node
-				have the same influence this must have an effect,
-				default is ON
-	  --no_founded_constraint
-				turn constraints OFF that every variation must be
-				explained by an input, default is ON
-	  --autoinputs          compute possible inputs of the network (nodes with
-				indegree 0)
-	  --show_repairs SHOW_REPAIRS
-				number of repairs to show, default is OFF, 0=all
-	  --opt_graph           compute opt-graph repairs (allows also adding edges),
-				default is only removing edges
+# Who we are
+BioASP is developed by several people at several institutions from several countries:
+
+* [DyLISS, CNRS & Inria (Rennes, France)](http://www.irisa.fr/dyliss/)
+* [Potassco, Potsdam University (Potsdam, Germany)](http://potassco.sourceforge.net)
+* [MeForBio, IRCCyN & CNRS (Nantes, France)](http://www.irccyn.ec-nantes.fr/spip.php?rubrique97&lang=en)
+* [ARB, Max Planck Institute (Magdeburg, Germany)](http://www.mpi-magdeburg.mpg.de/arb)
+* [Systems Biomedicine, EMBL-EBI (Hinxton, UK)](http://www.ebi.ac.uk/research/saez-rodriguez)
+
+If you would like to contribute in any way, your are welcome to join us at http://github.com/bioasp.
 
 
-### Samples
-
-Sample files available here: [iggy_demo_data.tar.gz](http://www.cs.uni-potsdam.de/~sthiele/bioasp/downloads/samples/iggy_demo_data.tar.gz)
-
-### Related publications
-
-* Detecting Inconsistencies in Large Biological Networks with Answer Set Programming. (2011). Theory and Practice of Logic Programming. [DOI](http://dx.doi.org/10.1007/978-3-540-89982-2_19)
-
-* Repair and Prediction (under Inconsistency) in Large Biological Networks with Answer Set Programming.(2010). 12th International Conference on the Principles of Knowledge Representation and Reasoning.[DOI](http://aaai.org/ocs/index.php/KR/KR2010/paper/view/1334/1660)
