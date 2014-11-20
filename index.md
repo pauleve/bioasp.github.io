@@ -2,7 +2,7 @@
 layout: index
 ---
 
-[Overview](#overview) | [Applications](#applications) | [Installation](#installation) | [Answer Set Programming](#answer-set-programming) | [Who we are](#who-we-are)
+[Overview](#overview) | [Applications](http://bioasp.github.io/apps.html) | [Installation](#installation) | [Answer Set Programming](#answer-set-programming) | [Who we are](#who-we-are)
 
 # Overview
 BioASP is a meta-package to create an powerful environment of Answer Set Programming for Systems Biology. The BioASP applications implement methods for analyzing metabolic, signaling and gene regulatory networks, consistency checking, diagnosis, and repair of biological data and models. They allow for computing predictions and generating hypotheses about required extensions of biological models, as well as designing new experiments and finding intervention strategies to control the biological system at hand.
