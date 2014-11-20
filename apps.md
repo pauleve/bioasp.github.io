@@ -8,7 +8,7 @@ The BioASP software collection includes the following applications. For more det
 
 ***
 
-[### **_meneco_** - Metabolic network completion](http://bioasp.github.io/meneco)
+###[**_meneco_** - Metabolic network completion](http://bioasp.github.io/meneco)
 This application can be used to check if a draft metabolic network provides the synthesis routes to comply with certain functionality. If this fails, **_meneco_** can automatically complete the network using reactions from a reference network stemming from other organisms until the observed functionality is provided.
 
 [Application Page](http://bioasp.github.io/meneco) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::meneco" target="_blank">Web Service</a> | [Citation](http://dx.doi.org/10.1007/978-3-642-40564-8_25)
