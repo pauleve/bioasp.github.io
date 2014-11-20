@@ -15,14 +15,14 @@ This application can be used to check if a draft metabolic network provides the 
 
 ***
 
-### Reasoning on the response of logical signaling networks: **_caspo_**
+### **_caspo_** - Reasoning on the response of logical signaling networks
 The aim of this application is to implement a pipeline for automated reasoning on logical signaling networks. Features provided by **_caspo_** include, learning of logical networks from experiments, design new experiments in order to reduce the uncertainty, and finding intervention strategies to control the biological system.
 
 [Application Page](http://bioasp.github.io/caspo) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::caspo-learn" target="_blank">Web Service</a> | [Citation](http://dx.doi.org/10.1093/bioinformatics/btt393)
 
 ***
 
-### Sign consistency on influence graphs: **_ingranalyze_**
+### **_ingranalyze_** - Sign consistency on influence graphs
 This application confronts biological networks given as Interaction Graphs with
 experimental data given as signs that represent the concentration changes between two measurements.
 It allows to decover inconsistencies in data or network, proposes minimal repairs and
@@ -32,7 +32,7 @@ It allows to decover inconsistencies in data or network, proposes minimal repair
 
 ***
 
-### Identification of functional gene units: **_shogen_**
+### **_shogen_** - Identification of functional gene units
 This application combines gene sequence information and metabolic reaction network into one model.
 Together with data about metabolites involved in a chemical pathway,
  the Shortest Gene Segments (SGS) are proposed which activate the metabolic reactions of such a pathway.
@@ -41,7 +41,7 @@ Together with data about metabolites involved in a chemical pathway,
 
 ***
 
-### Compute minimal metabolic precursors: **_precursor_**
+### **_precursor_** - Compute minimal metabolic precursors
 Given a metabolic reaction network and a set of target metabolites, this application computes the subset minimal sets of precursor metabolites needed to produce the targets.
 
 [Application Page](http://bioasp.github.io/precursor) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::precursor" target="_blank">Web Service</a>
