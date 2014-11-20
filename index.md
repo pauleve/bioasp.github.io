@@ -9,6 +9,8 @@ BioASP is a meta-package to create an powerful environment of Answer Set Program
 <a href="https://plus.google.com/106623620514531759221" rel="publisher">Google+</a>
 
 
+# [Applications](http://bioasp.github.io/apps.html) 
+
 # Installation
 You can install all BioASP application at once from [pypi](http://pypi.python.org/pypi/bioasp) by running:
 ```
