@@ -49,7 +49,7 @@ This application is a further development of ingranalyze it supports the incorpo
  discovers inconsistencies in data or network, applies minimal repairs and predicts the behavior of unmeasured species. In particular, it distinguishes strong predictions (e.g. increase of a node level) and
 weak predictions (e.g., node level increases or remains unchanged) enlarging the overall predictive power of the approach. Also included is a the tool opt_graph which computes networks which have an optimal fitness regarding the data of not only a single experiment but a set of experiments.
 
-[Application Page](http://bioasp.github.io/ingranalyze) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::ingranalyze" target="_blank">Web Service</a> | [Citation](http://dx.doi.org/10.1007/978-3-540-89982-2_19)
+[Application Page](http://bioasp.github.io/iggy) 
 
 ***
 
