@@ -44,7 +44,7 @@ It allows to decover inconsistencies in data or network, proposes minimal repair
 
 
 #### Other projects using ingranalyze
-[CytoASP](http://dx.doi.org/10.1186/s12918-015-0179-6) is a [Cytoscape](http://www.cytoscape.org/) plugin that uses ingranalyze to perform consistency checks, prediction and repair providing visualizations in Cytoscape.
+[CytoASP](http://dx.doi.org/10.1186/s12918-015-0179-6) is a [Cytoscape](http://www.cytoscape.org/) plugin that enables consistency checking, prediction and repair of network models while providing customizable visualizations in Cytoscape.
 [Citation](http://dx.doi.org/10.1186/s12918-015-0179-6) | 
 [Sources](https://bitbucket.org/akittas/cytoasp)
 ***
