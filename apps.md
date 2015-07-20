@@ -42,6 +42,11 @@ It allows to decover inconsistencies in data or network, proposes minimal repair
 
 [Application Page](http://bioasp.github.io/ingranalyze) | <a href="http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::ingranalyze" target="_blank">Web Service</a> | [Citation](http://dx.doi.org/10.1007/978-3-540-89982-2_19)
 
+
+#### Other projects using ingranalyze
+[CytoASP](http://dx.doi.org/10.1186/s12918-015-0179-6) is a [Cytoscape](http://www.cytoscape.org/) pluging that use ingranalyze to perform consistency checks and prediction and repair providing visualizations in Cytoscape.
+[Citation](http://dx.doi.org/10.1186/s12918-015-0179-6) | 
+[Sources](https://bitbucket.org/akittas/cytoasp)
 ***
 
 ###[**_iggy_** - Consistency based analysis of influence graphs and observed systems behaviors](http://bioasp.github.io/iggy)
