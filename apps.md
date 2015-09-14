@@ -34,6 +34,15 @@ The aim of this application is to implement a pipeline for automated reasoning o
 
 ##Reasoning on influence graph models
 
+###[**_iggy_** - Consistency based analysis of influence graphs and observed systems behaviors](http://bioasp.github.io/iggy)
+This application is a further development of ingranalyze it supports the incorporation of uncertain data and
+ discovers inconsistencies in data or network, applies minimal repairs and predicts the behavior of unmeasured species. In particular, it distinguishes strong predictions (e.g. increase of a node level) and
+weak predictions (e.g., node level increases or remains unchanged) enlarging the overall predictive power of the approach. Also included is a the tool opt_graph which computes networks which have an optimal fitness regarding the data of not only a single experiment but a set of experiments.
+
+[Application Page](http://bioasp.github.io/iggy) 
+
+***
+
 ###[**_ingranalyze_** - Sign consistency on influence graphs](http://bioasp.github.io/ingranalyze)
 This application confronts biological networks given as interaction graphs with
 experimental data given as signs that represent the concentration changes between two measurements.
@@ -47,15 +56,6 @@ It allows to decover inconsistencies in data or network, proposes minimal repair
 [CytoASP](http://dx.doi.org/10.1186/s12918-015-0179-6) is a [Cytoscape](http://www.cytoscape.org/) plugin that enables consistency checking, prediction and repair of network models while providing customizable visualizations in Cytoscape.
 [Citation](http://dx.doi.org/10.1186/s12918-015-0179-6) | 
 [Sources](https://bitbucket.org/akittas/cytoasp)
-***
-
-###[**_iggy_** - Consistency based analysis of influence graphs and observed systems behaviors](http://bioasp.github.io/iggy)
-This application is a further development of ingranalyze it supports the incorporation of uncertain data and
- discovers inconsistencies in data or network, applies minimal repairs and predicts the behavior of unmeasured species. In particular, it distinguishes strong predictions (e.g. increase of a node level) and
-weak predictions (e.g., node level increases or remains unchanged) enlarging the overall predictive power of the approach. Also included is a the tool opt_graph which computes networks which have an optimal fitness regarding the data of not only a single experiment but a set of experiments.
-
-[Application Page](http://bioasp.github.io/iggy) 
-
 ***
 
 
