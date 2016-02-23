@@ -10,7 +10,7 @@ The BioASP software collection includes the following applications. For more det
 
 ## Reasoning on metabolic network models
 
-[**_meneco_** - Metabolic network completion{: style="font-size: 24px"}](http://bioasp.github.io/meneco)
+### [**_meneco_** - Metabolic network completion](http://bioasp.github.io/meneco) ###
 This application can be used to check if a draft metabolic network provides the synthesis routes to comply with certain functionality. If this fails, **_meneco_** can automatically complete the network using reactions from a reference network stemming from other organisms until the observed functionality is provided.
 
 [Application page](http://bioasp.github.io/meneco) \| 
@@ -28,7 +28,7 @@ Given a metabolic reaction network and a set of target metabolites, this applica
 
 ## Reasoning on Boolean models
 
-[**_caspo_**{: style="font-size: 24px"} - Reasoning on the response of logical signaling networks](http://bioasp.github.io/caspo)
+### [**_caspo_** - Reasoning on the response of logical signaling networks](http://bioasp.github.io/caspo) ###
 The aim of this application is to implement a pipeline for automated reasoning on logical signaling networks. Features provided by **_caspo_** include, learning of logical networks from experiments, design new experiments in order to reduce the uncertainty, and finding intervention strategies to control the biological system.
 
 [Application page](http://bioasp.github.io/caspo) \|
@@ -38,7 +38,7 @@ The aim of this application is to implement a pipeline for automated reasoning o
 
 ## Reasoning on influence graph models
 
-[**_iggy_**{: style="font-size: 24px"} - Consistency based analysis of influence graphs and observed systems behaviors](http://bioasp.github.io/iggy)
+### [**_iggy_** - Consistency based analysis of influence graphs and observed systems behaviors](http://bioasp.github.io/iggy) ###
 This application is a further development of ingranalyze it supports the incorporation of uncertain data and
  discovers inconsistencies in data or network, applies minimal repairs and predicts the behavior of unmeasured species. In particular, it distinguishes strong predictions (e.g. increase of a node level) and
 weak predictions (e.g., node level increases or remains unchanged) enlarging the overall predictive power of the approach. Also included is a the tool opt_graph which computes networks which have an optimal fitness regarding the data of not only a single experiment but a set of experiments.
@@ -48,7 +48,7 @@ weak predictions (e.g., node level increases or remains unchanged) enlarging the
 
 ***
 
-[**_ingranalyze_**{: style="font-size: 24px"} - Sign consistency on influence graphs](http://bioasp.github.io/ingranalyze)
+### [**_ingranalyze_** - Sign consistency on influence graphs](http://bioasp.github.io/ingranalyze) ###
 This application confronts biological networks given as interaction graphs with
 experimental data given as signs that represent the concentration changes between two measurements.
 It allows to decover inconsistencies in data or network, proposes minimal repairs and
@@ -67,7 +67,7 @@ It allows to decover inconsistencies in data or network, proposes minimal repair
 
 ## Reasoning on integrated metabolic gene regulation models
 
-[**_shogen_**{: style="font-size: 24px"} - Identification of functional gene units](http://bioasp.github.io/shogen)
+### [**_shogen_** - Identification of functional gene units](http://bioasp.github.io/shogen) ###
 This application combines gene sequence information and metabolic reaction network into one model.
 Together with data about metabolites involved in a chemical pathway,
  the Shortest Gene Segments (SGS) are proposed which activate the metabolic reactions of such a pathway.
