@@ -4,7 +4,7 @@ layout: index
 [Overview](http://bioasp.github.io/index.html) \| [Applications](http://bioasp.github.io/apps.html) \| [Answer Set Programming](http://bioasp.github.io/index.html) \| [Who we are](http://bioasp.github.io/index.html)
 
 # Applications
-The BioASP software collection includes the following applications. For more details on each application, please visit the corresponding <em>Application Page</em>. BioASP applications are freely available as python packages under General Public License (GPL) and they can be easily installed on your system. However you may want to try their <em>Web Service</em> before doing so (example input data is provided in-place).
+The BioASP software collection includes the following applications. For more details on each application, please visit the corresponding <em>Application page</em>. BioASP applications are freely available as python packages under General Public License (GPL) and they can be easily installed on your system. However you may want to try their <em>Web service</em> before doing so (example input data is provided in-place).
 
 ***
 
