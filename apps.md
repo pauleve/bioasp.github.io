@@ -10,14 +10,15 @@ The BioASP software collection includes the following applications. For more det
 
 ## Reasoning on metabolic network models
 
-[**_meneco_** - Metabolic network completion]{: style="font-size: 24px"}(http://bioasp.github.io/meneco)
+[**_meneco_** - Metabolic network completion{: style="font-size: 24px"}](http://bioasp.github.io/meneco)
 This application can be used to check if a draft metabolic network provides the synthesis routes to comply with certain functionality. If this fails, **_meneco_** can automatically complete the network using reactions from a reference network stemming from other organisms until the observed functionality is provided.
 
 [Application page](http://bioasp.github.io/meneco) \| 
 [Web service](http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::meneco) \|  [Citation](http://dx.doi.org/10.1007/978-3-642-40564-8_25)
 
 ***
-### [**_precursor_** - Compute minimal metabolic precursors](http://bioasp.github.io/precursor)
+
+### [**_precursor_** - Compute minimal metabolic precursors](http://bioasp.github.io/precursor) ###
 Given a metabolic reaction network and a set of target metabolites, this application computes the subset minimal sets of precursor metabolites needed to produce the targets.
 
 [Application page](http://bioasp.github.io/precursor) \|
