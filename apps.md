@@ -62,7 +62,7 @@ It allows to decover inconsistencies in data or network, proposes minimal repair
 
 ## Reasoning on integrated metabolic gene regulation models
 
-[**_shogen_**{: style="color: red"} - Identification of functional gene units](http://bioasp.github.io/shogen)
+[**_shogen_**{: style="font-size: 24px"} - Identification of functional gene units](http://bioasp.github.io/shogen)
 This application combines gene sequence information and metabolic reaction network into one model.
 Together with data about metabolites involved in a chemical pathway,
  the Shortest Gene Segments (SGS) are proposed which activate the metabolic reactions of such a pathway.
