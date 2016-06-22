@@ -12,18 +12,3 @@ Don't hesitate to ask questions, report bugs, etc. at:
 
 ### [The BioASP applications](bioasp.github.io/apps.html)
 
-#### Installation
-
-You can install all BioASP application at once simply by running:
-
-```
-$ pip install bioasp
-```
-
-For details on how to install each individual application follow the corresponding links above. If you do not have **pip** installed on your system, you only need to download [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py). Then run the following:
-
-```
-$ python get-pip.py
-```
-
-Note that you may need either administrator access or a [virtual environment](http://www.virtualenv.org/). 
