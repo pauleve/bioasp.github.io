@@ -38,7 +38,7 @@ The aim of this application is to implement a pipeline for automated reasoning o
 
 ## Reasoning on influence graph models
 
-### [**_exdesi_** - Experiment Planning to discriminate influence graph models](http://bioasp.github.io/edesi) ###
+### [**_exdesi_** - Experiment planning to discriminate influence graph models](http://bioasp.github.io/exdesi) ###
 
 ### [**_iggy_** - Consistency of influence graphs models and observed systems behaviors](http://bioasp.github.io/iggy) ###
 This application is a further development of ingranalyze it supports the incorporation of uncertain data and
