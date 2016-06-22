@@ -5,7 +5,12 @@ layout: index
 [Overview](#overview) \| [Applications](http://bioasp.github.io/apps.html) \| [Answer Set Programming](#answer-set-programming) \| [Who we are](#who-we-are)
 
 # Overview
-BioASP is a meta-package to create an powerful environment of Answer Set Programming for Systems Biology. The BioASP applications implement methods for analyzing metabolic, signaling and gene regulatory networks, consistency checking, diagnosis, and repair of biological data and models. They allow for computing predictions and generating hypotheses about required extensions of biological models, as well as designing new experiments and finding intervention strategies to control the biological system at hand.
+BioASP is a collection of open-source programs, providing solutions for analyzing biological data and models with Answer Set Programming (ASP). ASP has proven to be an excellent tool for solving a variety of biological questions. The BioASP applications implement methods for analyzing metabolic, signaling and gene regulatory networks, consistency checking, diagnosis, and repair of biological data and models. In particular, it allows for computing predictions and generating hypotheses about required extensions of biological models, as well as designing new experiments and finding intervention strategies to control the biological system at hand.
+
+BioASP is powered by the ASP tools of [Potassco, the Potsdam Answer Set Solving Collection](http://potassco.sourceforge.net/) and [PyASP](sthiele.github.io/pyasp) library which makes this power easily available.
+The functionalities provided by the BioASP applications exploit technical know-how of modeling (biological) problems in ASP and gearing ASP solvers’ parameters to them.
+BioASP applications integrate our practical experience and offers them via easy-to-use Python functions, thus enabling ASP non-experts to solve biological questions with ASP.
+
 <a href="https://plus.google.com/106623620514531759221" rel="publisher">Google+</a>
 
 
