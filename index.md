@@ -16,26 +16,6 @@ BioASP applications integrate our practical experience and offers them via easy-
 
 # [Applications](http://bioasp.github.io/apps.html) 
 
-# Installation
-You can install all BioASP application at once from [pypi](http://pypi.python.org/pypi/bioasp) by running:
-```
-$ pip install bioasp
-```
-For details on how to use each application follow the corresponding links above. If you do not have **pip** installed on your system, you only need to download [get-pip.py](https://raw.github.com/pypa/pip/master/contrib/get-pip.py). Then run the following:
-```
-$ python get-pip.py
-```
-Alternatively, if you prefer not to install **pip**, you can download the sources of BioASP and after unpacking run:
-```
-$ python setup.py install
-```
-Note that you may need either administrator access or a [virtual environment](http://www.virtualenv.org).
-
-# Answer Set Programming
-BioASP applications strongly rely on Answer Set Programming (ASP) for knowledge representation and reasoning. ASP is a declarative problem solving paradigm from the field of Logic Programming combining several computer science areas such as Knowledge Representation and Reasoning, Artificial Intelligence, Constraint Satisfaction and Combinatorial Optimization.
-
-For more details on ASP and state-of-the-art available tools, you may want to check the website of [Potassco, the Potsdam Answer Set Solving Collection](http://potassco.sourceforge.net).
-
 # Who we are
 BioASP is developed by several people at several institutions from several countries:
 
@@ -47,4 +27,9 @@ BioASP is developed by several people at several institutions from several count
 
 If you would like to contribute in any way, your are welcome to join us at http://github.com/bioasp.
 
+
+# Answer Set Programming
+BioASP applications strongly rely on Answer Set Programming (ASP) for knowledge representation and reasoning. ASP is a declarative problem solving paradigm from the field of Logic Programming combining several computer science areas such as Knowledge Representation and Reasoning, Artificial Intelligence, Constraint Satisfaction and Combinatorial Optimization.
+
+For more details on ASP and state-of-the-art available tools, you may want to check the website of [Potassco, the Potsdam Answer Set Solving Collection](http://potassco.sourceforge.net).
 
