@@ -16,7 +16,7 @@ BioASP applications integrate our practical experience and offers them via easy-
 
 # [Applications](http://bioasp.github.io/apps.html) 
 
-# Who we are
+## Who we are
 BioASP is developed by several people at several institutions from several countries:
 
 * [DyLISS, CNRS & Inria (Rennes, France)](http://www.irisa.fr/dyliss/)
@@ -28,7 +28,7 @@ BioASP is developed by several people at several institutions from several count
 If you would like to contribute in any way, your are welcome to join us at http://github.com/bioasp.
 
 
-# Answer Set Programming
+## Answer Set Programming
 BioASP applications strongly rely on Answer Set Programming (ASP) for knowledge representation and reasoning. ASP is a declarative problem solving paradigm from the field of Logic Programming combining several computer science areas such as Knowledge Representation and Reasoning, Artificial Intelligence, Constraint Satisfaction and Combinatorial Optimization.
 
 For more details on ASP and state-of-the-art available tools, you may want to check the website of [Potassco, the Potsdam Answer Set Solving Collection](http://potassco.sourceforge.net).
