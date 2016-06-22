@@ -52,6 +52,8 @@ ExDesi implements experiment planning with interaction graph models and sign con
 to determine experiments which are most suitable to deliver results
 that allow for a refinement of the model.
 
+[Application page](http://bioasp.github.io/exdesi)
+
 ### [**_iggy_** - Consistency of influence graphs models and observed systems behaviors](http://bioasp.github.io/iggy) ###
 This application is a further development of ingranalyze it supports the incorporation of uncertain data and
  discovers inconsistencies in data or network, applies minimal repairs and predicts the behavior of unmeasured species. In particular, it distinguishes strong predictions (e.g. increase of a node level) and
