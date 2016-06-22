@@ -38,7 +38,19 @@ The aim of this application is to implement a pipeline for automated reasoning o
 
 ## Reasoning on influence graph models
 
-### [**_exdesi_** - Experiment planning to discriminate influence graph models](http://bioasp.github.io/exdesi) ###
+### [**_ExDesi_** - Experiment planning to discriminate influence graph models](http://bioasp.github.io/exdesi) ###
+Modern methods for the inference of cellular networks from experimental data
+often express nondeterminism by proposing an ensemble of candidate models with
+similar properties.
+To further discriminate among these model candidates, and to find the biological
+truth, new experiments need to be carried out.
+Building upon a notion of consistency between biochemical/genetic regulations
+and measurements profiles of cell activity,
+ExDesi determines those experiments that discriminate most of the candidates
+while minimizing the costs.
+ExDesi implements experiment planning with interaction graph models and sign consistency methods 
+to determine experiments which are most suitable to deliver results
+that allow for a refinement of the model.
 
 ### [**_iggy_** - Consistency of influence graphs models and observed systems behaviors](http://bioasp.github.io/iggy) ###
 This application is a further development of ingranalyze it supports the incorporation of uncertain data and
