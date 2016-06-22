@@ -10,5 +10,5 @@ Don't hesitate to ask questions, report bugs, etc. at:
 * [Issues](https://github.com/bioasp/bioasp.github.io/issues)
 * [Google+](https://plus.google.com/106623620514531759221)
 
-### [The BioASP applications](bioasp.github.io/apps.html)
+### [The BioASP applications](https://bioasp.github.io/apps.html)
 
