@@ -10,13 +10,7 @@ Don't hesitate to ask questions, report bugs, etc. at:
 * [Issues](https://github.com/bioasp/bioasp.github.io/issues)
 * [Google+](https://plus.google.com/106623620514531759221)
 
-### The BioASP applications
-
-* 
-* [Sign consistency on influence graphs: **iggy**](iggy)
-* [Reasoning on the response of logical signaling networks: **caspo**](caspo)
-* [Metabolic network completion: **meneco**](meneco)
-* [Identification of functional gene units: **shogen2**](shogen2)
+### [The BioASP applications](bioasp.github.io/apps.html)
 
 #### Installation
 
