@@ -54,6 +54,8 @@ that allow for a refinement of the model.\
 \
 [Application page](http://bioasp.github.io/exdesi)
 
+***
+
 * [**_iggy_** - Consistency of influence graphs models and observed systems behaviors](http://bioasp.github.io/iggy) \
 This application is a further development of ingranalyze it supports the incorporation of uncertain data and
  discovers inconsistencies in data or network, applies minimal repairs and predicts the behavior of unmeasured species. In particular, it distinguishes strong predictions (e.g. increase of a node level) and
@@ -72,9 +74,8 @@ It allows to decover inconsistencies in data or network, proposes minimal repair
  predicts the behavior of unmeasured species.\
 \
 [Application page](http://bioasp.github.io/ingranalyze) \| 
-[Web service](http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::ingranalyze) \| [Citation](http://dx.doi.org/10.1007/978-3-540-89982-2_19)
-
-
+[Web service](http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::ingranalyze) \| [Citation](http://dx.doi.org/10.1007/978-3-540-89982-2_19)\
+\
 **Other projects using ingranalyze**\
 [CytoASP](http://dx.doi.org/10.1186/s12918-015-0179-6) is a [Cytoscape](http://www.cytoscape.org/) plugin that enables consistency checking, prediction and repair of network models while providing customizable visualizations in Cytoscape.
 [Citation](http://dx.doi.org/10.1186/s12918-015-0179-6) \| 
