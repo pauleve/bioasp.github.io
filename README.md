@@ -13,7 +13,7 @@ BioASP applications integrate our practical experience and offers them via easy-
 - [**_meneco_** - Metabolic network completion](https://bioasp.github.io/meneco)
 - [**_precursor_** - Compute minimal metabolic precursors](https://bioasp.github.io/precursor)
 - [**_caspo_** - Reasoning on the response of logical signaling networks](https://bioasp.github.io/caspo)
-- [**_caspots_** - Inference of Boolean networks from time series data](https://bioasp.github.io/caspots)
+- [**_caspots_** - Boolean network inference from time series data with perturbations](https://bioasp.github.io/caspots)
 - [**_ExDesi_** - Experiment planning to discriminate influence graph models](https://bioasp.github.io/exdesi)
 - [**_iggy_** - Consistency of influence graphs models and observed systems behaviors](https://bioasp.github.io/iggy)
 
