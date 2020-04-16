@@ -34,6 +34,12 @@ The aim of this application is to implement a pipeline for automated reasoning o
 [Application page](https://bioasp.github.io/caspo) \|
 [Web service](http://mobyle.genouest.org/cgi-bin/Mobyle/portal.py#forms::caspo-learn) \| [Citation](http://dx.doi.org/10.1093/bioinformatics/btt393)
 
+### [**_caspots_** - Boolean network inference from time series data with perturbations](https://bioasp.github.io/caspots) ###
+**_caspots_** (caspo time-series) provides an automatic and exhaustive inference of Boolean networks from prior-knowledge interaction graph and time series data with perturbations. It allows for minimising errors for matching time series data, and supports fully-asynchronous and (general) asynchronous semantics of locally-monotonic Boolean networks.
+
+[Application page](https://bioasp.github.io/caspots) \|
+[Citation](http://dx.doi.org/10.1016/j.biosystems.2016.07.009)
+
 ***
 
 ## Reasoning on influence graph models
