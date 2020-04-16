@@ -23,6 +23,7 @@ BioASP is developed by several people at several institutions from several count
 * MeForBio, IRCCyN & CNRS (Nantes, France)
 * [ARB, Max Planck Institute (Magdeburg, Germany)](https://www.mpi-magdeburg.mpg.de/arb)
 * Systems Biomedicine, EMBL-EBI (Hinxton, UK)
+* Formal Methods, LaBRI (Bordeaux, France)(https://www.labri.fr)
 
 If you would like to contribute in any way, your are welcome to join us at https://github.com/bioasp.
 
